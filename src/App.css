@@ -24,8 +24,16 @@
     height: 100px;
     background-color:lightblue;
     border-radius: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
     
   }
+  .pantalla h4{
+    font-size:25px;
+    padding-right: 25px;
+  }
+
   .botones{
     display:flex;
     padding-top: 20px;
@@ -69,5 +77,8 @@
     display: flex;
     justify-content:center;
     align-items:center;
+  }
+  .orange{
+    background-color:orangered;
   }
 }
